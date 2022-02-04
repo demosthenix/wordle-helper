@@ -2,7 +2,7 @@ import random
 import sys
 guess_words = dict()
 
-with open("/Users/Demosthenix/JOJO/Wordle-Solver/w.txt", 'r') as f:
+with open("./w.txt", 'r') as f:
     words_line = [line.rstrip() for line in f]
 
 word_dict = dict()
